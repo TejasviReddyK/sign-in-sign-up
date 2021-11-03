@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign In | Quanta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style media="screen">
+    html, body{
+      height:100%;
+    }
+    body{
+      background:#f8f9fa;
+    }
+    .wrapper{
+      width:292px; border:1px solid rgb(234, 234, 234); border-radius:4px;
+    }
+    .otp h1{
+      font-size:20px;
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center">
+  <div class="wrapper bg-white">
+    <div class="otp shrink-0 full-width">
+      <div class="p-5-6">
+        <h1 class="mt0">Enter OTP</h1>
+        <p style="color:#444">We have just sent an OTP to <span class="block mt-1-2" style="font-family:monospace;">******theja@gmail.com</span></p>
+      </div>
+      <form class="p-5-6 pt0" action="index.html" method="post">
+        <label class="_username shrink-0 full-width p-y-1-3">
+          <span class="_text block pl-1-2 mb-1-6">OTP</span>
+          <input type="text" class="_otp-field input -rounded -bigger full-width" name="" value="" placeholder="Enter OTP" autofocus>
+        </label>
+        <button type="submit" class="btn -cta block ml-auto">Next</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
